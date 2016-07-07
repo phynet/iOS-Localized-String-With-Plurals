@@ -20,7 +20,7 @@ You can check the code example to learn how to use plurals and localizable strin
                                 NSLocalizedStringFromTable(@"opinions", @"Plurals", @""),plural];
 ```  
 
-- You don't want to use a specific name for your stringsdict plural file, just use NSLocalizedString like always:
+- You don't want to use a specific name for your stringsdict plural file, just use NSLocalizedString as usual:
 
 ```objc
     int number_opinion = 1;
