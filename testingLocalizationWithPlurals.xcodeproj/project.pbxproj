@@ -15,34 +15,15 @@
 		BC5FF7291D21267D002E0E46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5FF7271D21267D002E0E46 /* Main.storyboard */; };
 		BC5FF72B1D21267D002E0E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5FF72A1D21267D002E0E46 /* Assets.xcassets */; };
 		BC5FF72E1D21267D002E0E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5FF72C1D21267D002E0E46 /* LaunchScreen.storyboard */; };
-		BC5FF7391D21267D002E0E46 /* testingLocalizationWithPluralsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FF7381D21267D002E0E46 /* testingLocalizationWithPluralsTests.m */; };
-		BC5FF7441D21267D002E0E46 /* testingLocalizationWithPluralsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FF7431D21267D002E0E46 /* testingLocalizationWithPluralsUITests.m */; };
 		BCF476AD1D216177005D1CCA /* Home.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCF476AB1D216177005D1CCA /* Home.strings */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BC5FF7351D21267D002E0E46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC5FF7131D21267D002E0E46 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BC5FF71A1D21267D002E0E46;
-			remoteInfo = testingLocalizationWithPlurals;
-		};
-		BC5FF7401D21267D002E0E46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC5FF7131D21267D002E0E46 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BC5FF71A1D21267D002E0E46;
-			remoteInfo = testingLocalizationWithPlurals;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BC36D4251D2E3CE700888C9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		BC36D42C1D2E3D6F00888C9F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = es; path = es.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		BC36D42E1D2E3D8100888C9F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = es; path = es.lproj/Plurals.stringsdict; sourceTree = "<group>"; };
 		BC36D4301D2E3D8600888C9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Plurals.stringsdict; sourceTree = "<group>"; };
-		BC5FF71B1D21267D002E0E46 /* testingLocalizationWithPlurals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testingLocalizationWithPlurals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5FF71B1D21267D002E0E46 /* LocalizeWithPlurals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizeWithPlurals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5FF71F1D21267D002E0E46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC5FF7211D21267D002E0E46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC5FF7221D21267D002E0E46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,10 +33,8 @@
 		BC5FF72A1D21267D002E0E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC5FF72D1D21267D002E0E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC5FF72F1D21267D002E0E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC5FF7341D21267D002E0E46 /* testingLocalizationWithPluralsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testingLocalizationWithPluralsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5FF7381D21267D002E0E46 /* testingLocalizationWithPluralsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testingLocalizationWithPluralsTests.m; sourceTree = "<group>"; };
 		BC5FF73A1D21267D002E0E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC5FF73F1D21267D002E0E46 /* testingLocalizationWithPluralsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testingLocalizationWithPluralsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5FF7431D21267D002E0E46 /* testingLocalizationWithPluralsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testingLocalizationWithPluralsUITests.m; sourceTree = "<group>"; };
 		BC5FF7451D21267D002E0E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCF476AC1D216177005D1CCA /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Home.strings; sourceTree = "<group>"; };
@@ -64,20 +43,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		BC5FF7181D21267D002E0E46 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC5FF7311D21267D002E0E46 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC5FF73C1D21267D002E0E46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -100,9 +65,7 @@
 		BC5FF71C1D21267D002E0E46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC5FF71B1D21267D002E0E46 /* testingLocalizationWithPlurals.app */,
-				BC5FF7341D21267D002E0E46 /* testingLocalizationWithPluralsTests.xctest */,
-				BC5FF73F1D21267D002E0E46 /* testingLocalizationWithPluralsUITests.xctest */,
+				BC5FF71B1D21267D002E0E46 /* LocalizeWithPlurals.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,44 +140,8 @@
 			);
 			name = testingLocalizationWithPlurals;
 			productName = testingLocalizationWithPlurals;
-			productReference = BC5FF71B1D21267D002E0E46 /* testingLocalizationWithPlurals.app */;
+			productReference = BC5FF71B1D21267D002E0E46 /* LocalizeWithPlurals.app */;
 			productType = "com.apple.product-type.application";
-		};
-		BC5FF7331D21267D002E0E46 /* testingLocalizationWithPluralsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC5FF74B1D21267D002E0E46 /* Build configuration list for PBXNativeTarget "testingLocalizationWithPluralsTests" */;
-			buildPhases = (
-				BC5FF7301D21267D002E0E46 /* Sources */,
-				BC5FF7311D21267D002E0E46 /* Frameworks */,
-				BC5FF7321D21267D002E0E46 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BC5FF7361D21267D002E0E46 /* PBXTargetDependency */,
-			);
-			name = testingLocalizationWithPluralsTests;
-			productName = testingLocalizationWithPluralsTests;
-			productReference = BC5FF7341D21267D002E0E46 /* testingLocalizationWithPluralsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BC5FF73E1D21267D002E0E46 /* testingLocalizationWithPluralsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC5FF74E1D21267D002E0E46 /* Build configuration list for PBXNativeTarget "testingLocalizationWithPluralsUITests" */;
-			buildPhases = (
-				BC5FF73B1D21267D002E0E46 /* Sources */,
-				BC5FF73C1D21267D002E0E46 /* Frameworks */,
-				BC5FF73D1D21267D002E0E46 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BC5FF7411D21267D002E0E46 /* PBXTargetDependency */,
-			);
-			name = testingLocalizationWithPluralsUITests;
-			productName = testingLocalizationWithPluralsUITests;
-			productReference = BC5FF73F1D21267D002E0E46 /* testingLocalizationWithPluralsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -227,14 +154,6 @@
 				TargetAttributes = {
 					BC5FF71A1D21267D002E0E46 = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					BC5FF7331D21267D002E0E46 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = BC5FF71A1D21267D002E0E46;
-					};
-					BC5FF73E1D21267D002E0E46 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = BC5FF71A1D21267D002E0E46;
 					};
 				};
 			};
@@ -258,8 +177,6 @@
 			projectRoot = "";
 			targets = (
 				BC5FF71A1D21267D002E0E46 /* testingLocalizationWithPlurals */,
-				BC5FF7331D21267D002E0E46 /* testingLocalizationWithPluralsTests */,
-				BC5FF73E1D21267D002E0E46 /* testingLocalizationWithPluralsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -278,20 +195,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC5FF7321D21267D002E0E46 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC5FF73D1D21267D002E0E46 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -305,36 +208,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC5FF7301D21267D002E0E46 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC5FF7391D21267D002E0E46 /* testingLocalizationWithPluralsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC5FF73B1D21267D002E0E46 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC5FF7441D21267D002E0E46 /* testingLocalizationWithPluralsUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BC5FF7361D21267D002E0E46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BC5FF71A1D21267D002E0E46 /* testingLocalizationWithPlurals */;
-			targetProxy = BC5FF7351D21267D002E0E46 /* PBXContainerItemProxy */;
-		};
-		BC5FF7411D21267D002E0E46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BC5FF71A1D21267D002E0E46 /* testingLocalizationWithPlurals */;
-			targetProxy = BC5FF7401D21267D002E0E46 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BC36D4241D2E3CE700888C9F /* Localizable.stringsdict */ = {
@@ -475,7 +349,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phyline;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LocalizeWithPlurals;
 			};
 			name = Debug;
 		};
@@ -487,53 +361,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phyline;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		BC5FF74C1D21267D002E0E46 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = testingLocalizationWithPluralsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rentalia.rentaliaios.testingLocalizationWithPluralsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testingLocalizationWithPlurals.app/testingLocalizationWithPlurals";
-			};
-			name = Debug;
-		};
-		BC5FF74D1D21267D002E0E46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = testingLocalizationWithPluralsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rentalia.rentaliaios.testingLocalizationWithPluralsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testingLocalizationWithPlurals.app/testingLocalizationWithPlurals";
-			};
-			name = Release;
-		};
-		BC5FF74F1D21267D002E0E46 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = testingLocalizationWithPluralsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rentalia.rentaliaios.testingLocalizationWithPluralsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = testingLocalizationWithPlurals;
-			};
-			name = Debug;
-		};
-		BC5FF7501D21267D002E0E46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = testingLocalizationWithPluralsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rentalia.rentaliaios.testingLocalizationWithPluralsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = testingLocalizationWithPlurals;
+				PRODUCT_NAME = LocalizeWithPlurals;
 			};
 			name = Release;
 		};
@@ -554,24 +382,6 @@
 			buildConfigurations = (
 				BC5FF7491D21267D002E0E46 /* Debug */,
 				BC5FF74A1D21267D002E0E46 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BC5FF74B1D21267D002E0E46 /* Build configuration list for PBXNativeTarget "testingLocalizationWithPluralsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC5FF74C1D21267D002E0E46 /* Debug */,
-				BC5FF74D1D21267D002E0E46 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BC5FF74E1D21267D002E0E46 /* Build configuration list for PBXNativeTarget "testingLocalizationWithPluralsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC5FF74F1D21267D002E0E46 /* Debug */,
-				BC5FF7501D21267D002E0E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
