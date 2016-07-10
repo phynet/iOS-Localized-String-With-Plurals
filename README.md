@@ -5,7 +5,7 @@ You can check the code example to learn how to use plurals and localizable strin
 
 ### Plurals
 
-- Plurals with a custom name for example: "Plurals.stringsdict" you can name it as you want, say: "Home.stringsdict", add also, identifier of the concrete plural and the value which references the singular or plural.
+- Plurals with a custom name for example: ["Plurals.stringsdict" ](https://github.com/phynet/iOS-Localized-String-With-Plurals/blob/master/testingLocalizationWithPlurals/Resources/es.lproj/Plurals.stringsdict)you can name it as you want, say: "Home.stringsdict", add also, identifier of the concrete plural and the value which references the singular or plural.
 
 ```objc
     int singular = 1; //this is the value for singular
